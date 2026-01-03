@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-2xl font-bold text-gray-800">
-              {isAdmin() ? '👨‍💼 Admin' : '👤 Customer'} Dashboard
+              {isAdmin() ? 'Admin' : ' Customer'} Dashboard
             </h1>
             <p className="text-sm text-gray-600">{user?.email}</p>
           </div>
